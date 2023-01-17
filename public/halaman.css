@@ -1,0 +1,132 @@
+body{
+background-image: url(https://socialmediamarketer.id/wp-content/uploads/2021/10/pexels-rezli-5434970-1024x768.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FCFFE7;
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 16px 32px;
+    overflow: hidden;
+  }
+    
+  li {
+    float: right;
+  }
+  
+  .logo {
+    float: left;
+  }
+    
+  li a {
+    display: block;
+    color: #ECE8DD;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .logo-text{
+    font-style: italic;
+  }
+    
+  li a:hover:not(.active) {
+    color: #004258;
+  }
+    
+  .active {
+    color: #004258;
+  }
+  
+  @media screen and (max-width: 600px) {
+    ul li {float: none;}
+    .logo {float: none;}
+  }
+
+  .card {
+  background-color: #f7f8f9;
+  transition: 0.3s;
+  width: 300px;
+  min-height: 350px;
+  padding: 32px;
+  margin: 81px 0;
+  text-align: center;
+}
+
+.card:hover {
+  background-color: #fbcb7b;
+}
+
+.form {
+    background-color: rgb(18, 17, 17, 0.9);
+    position: absolute;
+    border: solid; 
+    width: 300px;
+    text-align: center;
+    margin-left: 64%;
+    margin-top: 130px;
+    padding: 30px;
+}
+
+
+.tittle {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.menu {
+    padding-right: 600px;
+}
+
+.logo {
+    border: solid;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+
+
